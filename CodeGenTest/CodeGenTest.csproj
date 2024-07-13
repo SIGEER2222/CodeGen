@@ -43,7 +43,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\RoslynTest\RoslynTest.csproj" />
+	  <ProjectReference Include="..\CodeGen\CodeGen.csproj" />
 	</ItemGroup>
 
 </Project>

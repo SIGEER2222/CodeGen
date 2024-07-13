@@ -7,11 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace FluentSyntaxRewriter.Test.Help;
-public class InvocationCollector : CSharpSyntaxWalker {
+public class InvocationCollector : CSharpSyntaxWalker
+{
   public List<InvocationExpressionSyntax> Invocations { get; } = new List<InvocationExpressionSyntax>();
 
-  public override void VisitInvocationExpression(InvocationExpressionSyntax node) {
+  public override void VisitInvocationExpression(InvocationExpressionSyntax node)
+  {
     Invocations.Add(node);
-    base.VisitInvocationExpression(node); 
+    base.VisitInvocationExpression(node);
   }
 }
