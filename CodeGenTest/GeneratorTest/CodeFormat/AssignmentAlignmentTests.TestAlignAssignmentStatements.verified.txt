@@ -1,0 +1,10 @@
+﻿
+public class TestClass
+{
+    public void TestMethod()
+    {
+        int xsasasd = 1;
+        int yasdad = 10;
+        int z = 100;
+    }
+}

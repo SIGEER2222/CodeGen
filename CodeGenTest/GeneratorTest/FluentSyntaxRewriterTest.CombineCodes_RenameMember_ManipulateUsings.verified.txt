@@ -1,0 +1,17 @@
+﻿namespace TheProject {
+    using System;
+    using System.Collections.Generic;
+
+    /// <summary>
+    /// </summary>
+    public sealed class AType {
+        private static readonly Lazy<AType> _instanceOf = new Lazy<AType>(
+            () => new AType(),
+            LazyThreadSafetyMode.None);
+
+        public static AType Instance => _instanceOf.Value;
+
+        internal AType() :
+            base() { }
+    }
+}
