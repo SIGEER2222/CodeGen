@@ -1,0 +1,17 @@
+﻿namespace ManuTalent.Mom.Operation.Winform.Host.Forms.PMS;
+[GenerateViewModel(ImplementINotifyPropertyChanging = true, ImplementIDataErrorInfo = true)]
+public partial class frmPMSVM : CommonFormVM
+{
+    [GenerateProperty] BindingList<PMSEqpWorkScheduleDto> _dtScheduleInfo = new();
+    [GenerateProperty] PMSEqpWorkScheduleDto _dtScheduleInfo_Selected;
+    [GenerateProperty] BindingList<PMSWorkOrderDto> _dtWorkOrderInfo = new();
+    [GenerateProperty] ComboxEquipment _comboxEquipment = ComboxEquipment.Copy();
+    [GenerateProperty] string eqpName;
+    [GenerateProperty] bool hasValue = false;
+
+    [GenerateCommand]
+    public async Task LoadAsync()
+    {
+
+    }
+}

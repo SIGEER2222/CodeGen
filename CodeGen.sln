@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGen", "CodeGen\CodeGen.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenTest", "CodeGenTest\CodeGenTest.csproj", "{4E3BA81D-C68C-4D86-88F7-3080F1C972C3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AA089B3E-6F8A-4E73-9638-922532DFA624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenTestForTT", "test\CodeGenTestForTT\CodeGenTestForTT.csproj", "{99224F20-2E6D-4A54-94F9-571A493F6E83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,5 +31,12 @@ Global
 		{4E3BA81D-C68C-4D86-88F7-3080F1C972C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E3BA81D-C68C-4D86-88F7-3080F1C972C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E3BA81D-C68C-4D86-88F7-3080F1C972C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99224F20-2E6D-4A54-94F9-571A493F6E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99224F20-2E6D-4A54-94F9-571A493F6E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99224F20-2E6D-4A54-94F9-571A493F6E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99224F20-2E6D-4A54-94F9-571A493F6E83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99224F20-2E6D-4A54-94F9-571A493F6E83} = {AA089B3E-6F8A-4E73-9638-922532DFA624}
 	EndGlobalSection
 EndGlobal
